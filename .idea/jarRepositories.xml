@@ -12,6 +12,11 @@
       <option name="url" value="http://118.190.78.212:8081/nexus/content/groups/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://10.19.85.72:8081/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="thirdparty" />
       <option name="name" value="thirdparty" />
       <option name="url" value="http://10.124.128.3:8081/nexus/content/repositories/3rd-party/" />
@@ -30,6 +35,11 @@
       <option name="id" value="central" />
       <option name="name" value="central" />
       <option name="url" value="http://10.124.128.3:8081/nexus/content/groups/cBSS2_public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="public" />
+      <option name="name" value="aliyun nexus" />
+      <option name="url" value="http://10.19.85.72:8081/nexus/content/groups/public/" />
     </remote-repository>
   </component>
 </project>
