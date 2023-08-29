@@ -179,68 +179,6 @@
                 <version>${transmittable-thread-local.version}</version>
             </dependency>
 
-            <!-- 核心模块 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-core</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 接口模块 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-swagger</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 安全模块 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-security</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 权限范围 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-datascope</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 多数据源 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-datasource</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 分布式事务 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-seata</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 日志记录 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-log</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 缓存服务 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-common-redis</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
-
-            <!-- 系统接口 -->
-            <dependency>
-                <groupId>com.insocp</groupId>
-                <artifactId>insocp-api-system</artifactId>
-                <version>${insocp.version}</version>
-            </dependency>
             <!--文件上传-->
             <dependency>
                 <groupId>com.amazonaws</groupId>
@@ -264,7 +202,6 @@
     </dependencyManagement>
     <modules>
         <module>DragonUtil</module>
-        <module>DragonUtil</module>
         <module>DragonFile</module>
     </modules>
     <packaging>pom</packaging>
@@ -282,6 +219,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>

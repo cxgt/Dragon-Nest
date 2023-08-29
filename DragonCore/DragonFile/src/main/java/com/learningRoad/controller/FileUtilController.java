@@ -1,7 +1,7 @@
 package com.learningRoad.controller;
 
 
-import com.insocp.common.core.domain.R;
+import com.learningRoad.domain.R;
 import com.learningRoad.utils.CosFileUpload;
 import com.learningRoad.utils.MinioUpload;
 import org.springframework.beans.factory.annotation.Autowired;

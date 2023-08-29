@@ -1,6 +1,7 @@
 package com.learningRoad.utils.uuid;
 
-import com.insocp.common.core.exception.UtilException;
+
+import com.learningRoad.exception.UtilException;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

@@ -1,14 +1,12 @@
 package com.learningRoad.utils;
 
-import com.insocp.common.core.exception.file.FileException;
-import com.insocp.common.core.exception.file.FileNameLengthLimitExceededException;
-import com.insocp.common.core.exception.file.FileSizeLimitExceededException;
-import com.insocp.common.core.exception.file.InvalidExtensionException;
-import com.insocp.common.core.utils.DateUtils;
-import com.insocp.common.core.utils.StringUtils;
-import com.insocp.common.core.utils.file.FileTypeUtils;
-import com.insocp.common.core.utils.file.MimeTypeUtils;
-import com.insocp.common.core.utils.uuid.Seq;
+import com.learningRoad.exception.file.FileException;
+import com.learningRoad.exception.file.FileNameLengthLimitExceededException;
+import com.learningRoad.exception.file.FileSizeLimitExceededException;
+import com.learningRoad.exception.file.InvalidExtensionException;
+import com.learningRoad.utils.file.FileTypeUtils;
+import com.learningRoad.utils.file.MimeTypeUtils;
+import com.learningRoad.utils.uuid.Seq;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.web.multipart.MultipartFile;
 

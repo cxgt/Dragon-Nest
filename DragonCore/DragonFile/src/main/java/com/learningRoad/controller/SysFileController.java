@@ -1,9 +1,9 @@
 package com.learningRoad.controller;
 
-import com.insocp.common.core.domain.R;
-import com.insocp.common.core.utils.file.FileUtils;
-import com.insocp.system.api.domain.SysFile;
+import com.learningRoad.domain.R;
+import com.learningRoad.domain.SysFile;
 import com.learningRoad.service.ISysFileService;
+import com.learningRoad.utils.file.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

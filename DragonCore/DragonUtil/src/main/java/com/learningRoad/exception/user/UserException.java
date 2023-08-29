@@ -1,6 +1,7 @@
 package com.learningRoad.exception.user;
 
-import com.insocp.common.core.exception.base.BaseException;
+
+import com.learningRoad.exception.base.BaseException;
 
 /**
  * 用户信息异常类

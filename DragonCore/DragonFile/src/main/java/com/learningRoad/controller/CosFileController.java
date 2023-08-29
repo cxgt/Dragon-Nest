@@ -1,9 +1,9 @@
 package com.learningRoad.controller;
 
-import com.insocp.common.core.domain.R;
-import com.insocp.common.core.utils.file.FileUtils;
-import com.insocp.system.api.domain.SysFile;
+import com.learningRoad.domain.R;
+import com.learningRoad.domain.SysFile;
 import com.learningRoad.utils.CosFileUpload;
+import com.learningRoad.utils.file.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

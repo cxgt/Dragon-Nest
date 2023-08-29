@@ -1,7 +1,9 @@
 package com.learningRoad.utils.uuid;
 
-import com.insocp.common.core.utils.DateUtils;
-import com.insocp.common.core.utils.StringUtils;
+
+
+import com.learningRoad.utils.DateUtils;
+import com.learningRoad.utils.StringUtils;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
