@@ -22,6 +22,7 @@ public class ResourcesConfig implements WebMvcConfigurer
     @Value("${file.path}")
     private String localFilePath;
 
+
     /**
      * 资源映射路径 前缀
      */
