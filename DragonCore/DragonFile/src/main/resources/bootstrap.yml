@@ -1,0 +1,23 @@
+# Tomcat
+server:
+  port: 9300
+
+file:
+  path: /springboot_save_file/
+  prefix: /upload/
+  domain: 10.19.85.80
+
+# Spring
+spring:
+  application:
+    # 应用名称
+    name: dragon-file
+  profiles:
+    # 环境配置
+    active: @profileActive@
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    com.dragon: debug
