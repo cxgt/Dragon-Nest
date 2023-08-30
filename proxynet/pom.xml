@@ -8,7 +8,7 @@
     
     
     <modules>
-
+        <module>data-encryption-decryption</module>
         <module>proxynet-server</module>
         <module>proxynet-client</module>
         <module>proxynet-common</module>
