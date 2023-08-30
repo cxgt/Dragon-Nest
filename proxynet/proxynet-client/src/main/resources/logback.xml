@@ -10,9 +10,9 @@
     <!-- ch.qos.logback.core.rolling.RollingFileAppender 文件日志输出 -->  
     <appender name="file-info"  
         class="ch.qos.logback.core.rolling.RollingFileAppender">  
-        <File>/logs/proxynet-server-info.log</File>  
+        <File>/Users/chenxin/logs/proxynet-server-info.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">  
-            <FileNamePattern>/logs/proxynet-server-info-%d{yyyy-MM-dd,CTT}.%i.log  
+            <FileNamePattern>/Users/chenxin/logs/proxynet-server-info-%d{yyyy-MM-dd,CTT}.%i.log
             </FileNamePattern>  
             <MaxHistory>10</MaxHistory>  
             <TimeBasedFileNamingAndTriggeringPolicy  
@@ -28,9 +28,9 @@
 
     <appender name="file-warn"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>/logs/proxynet-server-warn.log</File>
+        <File>/Users/chenxin/logs/proxynet-server-warn.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>/logs/proxynet-server-warn-%d{yyyy-MM-dd,CTT}.%i.log
+            <FileNamePattern>/Users/chenxin/logs/proxynet-server-warn-%d{yyyy-MM-dd,CTT}.%i.log
             </FileNamePattern>
             <MaxHistory>10</MaxHistory>
             <TimeBasedFileNamingAndTriggeringPolicy
@@ -48,9 +48,9 @@
     </appender>
     <appender name="file-error"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>/logs/proxynet-server-error.log</File>
+        <File>/Users/chenxin/logs/proxynet-server-error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>/logs/proxynet-server-error-%d{yyyy-MM-dd,CTT}.%i.log
+            <FileNamePattern>/Users/chenxin/logs/proxynet-server-error-%d{yyyy-MM-dd,CTT}.%i.log
             </FileNamePattern>
             <MaxHistory>10</MaxHistory>
             <TimeBasedFileNamingAndTriggeringPolicy

@@ -17,7 +17,7 @@ public class JdbcTest {
 
     public static void main(String[] args) throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:7788/jeecg-boot?serverTimezone=Asia/Shanghai", "root", "admin123");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jeecg-boot?serverTimezone=Asia/Shanghai", "root", "123456");
 
         List<SysRole> query = query(connection);
         System.out.println("当前线程" + Thread.currentThread().getName() + "开始...");
