@@ -26,8 +26,8 @@ import static com.swsm.proxynet.common.Constants.READ_IDLE_SECOND_TIME;
 import static com.swsm.proxynet.common.Constants.WRITE_IDLE_SECOND_TIME;
 
 /**
- * @author liujie
- * @date 2023-04-15
+ * @author chenxin
+ * @date 2023/08/30 10:20
  */
 @Component
 @Slf4j

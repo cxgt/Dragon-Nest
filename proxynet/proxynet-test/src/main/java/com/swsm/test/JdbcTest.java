@@ -8,8 +8,8 @@ import java.sql.ResultSet;
 import java.util.List;
 
 /**
- * @author liujie
- * @date 2023-04-13
+ * @author chenxin
+ * @date 2023/08/30 10:20
  */
 public class JdbcTest {
     

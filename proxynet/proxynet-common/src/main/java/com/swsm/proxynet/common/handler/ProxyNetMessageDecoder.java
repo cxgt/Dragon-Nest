@@ -10,8 +10,8 @@ import static com.swsm.proxynet.common.Constants.PROXY_MESSAGE_TOTAL_SIZE;
 import static com.swsm.proxynet.common.Constants.PROXY_MESSAGE_TYPE_SIZE;
 
 /**
- * @author liujie
- * @date 2023-04-15
+ * @author chenxin
+ * @date 2023/08/30 10:20
  */
 public class ProxyNetMessageDecoder extends LengthFieldBasedFrameDecoder {
     public ProxyNetMessageDecoder(int maxFrameLength, int lengthFieldOffset, int lengthFieldLength) {

@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="proxynet-server" />
         <module name="DragonUtil" />
+        <module name="proxynet-client" />
+        <module name="proxynet-test" />
         <module name="DragonFile" />
+        <module name="proxynet-common" />
       </profile>
     </annotationProcessing>
   </component>

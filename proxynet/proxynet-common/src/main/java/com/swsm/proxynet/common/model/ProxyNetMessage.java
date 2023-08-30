@@ -4,8 +4,8 @@ import com.alibaba.fastjson.JSON;
 import lombok.Data;
 
 /**
- * @author liujie
- * @date 2023-04-15
+ * @author chenxin
+ * @date 2023/08/30 10:20
  */
 @Data
 public class ProxyNetMessage {

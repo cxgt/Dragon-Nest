@@ -21,8 +21,8 @@ import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author liujie
- * @date 2023-04-15
+ * @author chenxin
+ * @date 2023/08/30 10:20
  */
 @Slf4j
 public class ServerClientChannelHandler extends SimpleChannelInboundHandler<ProxyNetMessage> {
