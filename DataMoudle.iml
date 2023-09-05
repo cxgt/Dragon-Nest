@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/DataMoudle" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/DataMoudle/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DataMoudle/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/DataMoudle/src/test/java" isTestSource="true" />
+    </content>
+  </component>
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/DataMoudle/src/main/resources/bootstrap.yml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>

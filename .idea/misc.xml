@@ -7,7 +7,21 @@
         <option value="$PROJECT_DIR$/DragonCore/pom.xml" />
         <option value="$PROJECT_DIR$/proxynet/pom.xml" />
         <option value="$PROJECT_DIR$/proxynet/DataEncryptionAndDecryption/pom.xml" />
+        <option value="$PROJECT_DIR$/DataInterceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/dataInterceptor2/pom.xml" />
+        <option value="$PROJECT_DIR$/DragonCore/DragonCommon/pom.xml" />
+        <option value="$PROJECT_DIR$/datemoudle/pom.xml" />
+        <option value="$PROJECT_DIR$/DataMoudle/pom.xml" />
+        <option value="$USER_HOME$/TestRepository/DataEncryptionAndDecryption/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/TestRepository/DataEncryptionAndDecryption/pom.xml" />
+        <option value="$PROJECT_DIR$/DataMoudle/pom.xml" />
+        <option value="$PROJECT_DIR$/DragonCore/DragonCommon/pom.xml" />
+        <option value="$PROJECT_DIR$/dataInterceptor2/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

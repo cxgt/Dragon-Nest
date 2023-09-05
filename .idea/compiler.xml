@@ -16,5 +16,9 @@
         <module name="data-encryption-decryption" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DataEncryptionAndDecryption" target="11" />
+      <module name="DataMoudle" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
